@@ -11,11 +11,11 @@ namespace Labixa.Controllers
     public class AccountController : BaseHomeController
     {
 
-        private UserManager<User> _userManager;
-        private IUserRoleStore<User> _userRoleManager;
+        private UserManager<AccountUser> _userManager;
+        private IUserRoleStore<AccountUser> _userRoleManager;
 
 
-        public AccountController(UserManager<User> userManager)
+        public AccountController(UserManager<AccountUser> userManager)
         {
             _userManager = userManager;
         }
@@ -75,7 +75,7 @@ namespace Labixa.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new User() { UserName = model.UserName };
+                var user = new AccountUser() { UserName = model.UserName };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -264,7 +264,7 @@ namespace Labixa.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new User() { UserName = model.UserName };
+                var user = new AccountUser() { UserName = model.UserName };
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
@@ -338,7 +338,7 @@ namespace Labixa.Controllers
             }
         }
 
-        private async Task SignInAsync(User user, bool isPersistent)
+        private async Task SignInAsync(AccountUser user, bool isPersistent)
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ExternalCookie);
             var identity = await _userManager.CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie);

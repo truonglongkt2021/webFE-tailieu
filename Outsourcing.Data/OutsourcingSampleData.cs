@@ -11,12 +11,12 @@ namespace Outsourcing.Data
 {
     public class OutsourcingSampleData : DropCreateDatabaseIfModelChanges<OutsourcingEntities>
     {
-        private UserManager<User> UserManager;
+        private UserManager<AccountUser> UserManager;
         private RoleManager<IdentityRole> RoleManager;
 
         protected override void Seed(OutsourcingEntities context)
         {
-            UserManager = new UserManager<User>(new UserStore<User>(context));
+            UserManager = new UserManager<AccountUser>(new UserStore<AccountUser>(context));
             RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
 
             //Create User

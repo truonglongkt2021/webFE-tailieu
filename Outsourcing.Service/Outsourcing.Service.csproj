@@ -44,12 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocumentCategoryService.cs" />
+    <Compile Include="DocumentStoreService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TransferLogService.cs" />
+    <Compile Include="WebsiteAttributeService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Outsourcing.Core\Outsourcing.Core.csproj">

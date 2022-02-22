@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Outsourcing.Data.Models
 {
-    public class User : IdentityUser
+    public class AccountUser : IdentityUser
     {
-        public User()
+        public AccountUser()
         {
             DateCreated = DateTime.Now;
         }

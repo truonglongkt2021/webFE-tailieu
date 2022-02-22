@@ -11,7 +11,7 @@ namespace Labixa.Areas.Admin.Controllers
     [Authorize]
     public  class AdminController : Controller
     {
-        UserManager<User> userManager;
+        UserManager<AccountUser> userManager;
         public AdminController()
         {
             

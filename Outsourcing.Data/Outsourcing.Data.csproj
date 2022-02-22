@@ -66,8 +66,10 @@
   <ItemGroup>
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\BaseEntity.cs" />
-    <Compile Include="Models\DocumentStores.cs" />
-    <Compile Include="Models\TransferLogs.cs" />
+    <Compile Include="Models\DocumentCategory.cs" />
+    <Compile Include="Models\DocumentStore.cs" />
+    <Compile Include="Models\TransferLog.cs" />
+    <Compile Include="Models\WebsiteAttribute.cs" />
     <Compile Include="OutsourcingSampleData.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />
     <Compile Include="Infrastructure\Disposable.cs" />
@@ -78,8 +80,12 @@
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\DocumentCategoryRepository.cs" />
+    <Compile Include="Repository\DocumentStoreRepository.cs" />
+    <Compile Include="Repository\TransferLogRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="OutsourcingEntities.cs" />
+    <Compile Include="Repository\WebsiteAttributeRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

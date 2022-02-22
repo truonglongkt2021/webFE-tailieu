@@ -13,11 +13,11 @@ namespace Outsourcing.Core.Extensions
     public static class SelectListExtensions
     {
         public static IEnumerable<SelectListItem> ToSelectListItems(
-              this IEnumerable<User> users, string selectedId)
+              this IEnumerable<AccountUser> AccountUsers, string selectedId)
         {
             return
 
-                users.OrderBy(user => user.Id)
+                AccountUsers.OrderBy(user => user.Id)
                       .Select(user =>
                           new SelectListItem
                           {

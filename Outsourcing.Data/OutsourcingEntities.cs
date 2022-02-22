@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Outsourcing.Data
 {
-    public class OutsourcingEntities : IdentityDbContext<User>
+    public class OutsourcingEntities : IdentityDbContext<AccountUser>
     {
 
         public OutsourcingEntities()
@@ -17,6 +17,11 @@ namespace Outsourcing.Data
         {
         }
         //public DbSet<ProductRelationship> ProductRelationships { get; set; }
+        public DbSet<DocumentCategory> DocumentCategorys { get; set; }
+        public DbSet<DocumentStore> DocumentStore { get; set; }
+        public DbSet<TransferLog> TransferLogs { get; set; }
+        public DbSet<WebsiteAttribute> WebsiteAttributes { get; set; }
+        public DbSet<AccountUser> AccountUsers { get; set; }
 
 
         public virtual void Commit()

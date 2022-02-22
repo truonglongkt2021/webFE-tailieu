@@ -30,7 +30,7 @@ namespace Labixa
         {
             OutsourcingEntities context = new OutsourcingEntities();
             var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
-            var UserManager = new UserManager<User>(new UserStore<User>(context));
+            var UserManager = new UserManager<AccountUser>(new UserStore<AccountUser>(context));
             // In Startup creating first Admin Role and creating a default Admin User
             if (!RoleManager.RoleExists("Admin"))
             {
@@ -39,7 +39,7 @@ namespace Labixa
                 role.Name = "Admin";
                 RoleManager.Create(role);
                 //Here create a admin supper user who will maintain website
-                var user = new User();
+                var user = new AccountUser();
                 user.UserName = "Administrator";
                 user.Email = "nghiiatran1998@gmail.com";
                 user.RoleId = SystemRoles.RoleAdmin;
@@ -59,7 +59,7 @@ namespace Labixa
                 role.Name = "Manager";
                 RoleManager.Create(role);
                 //Here create a manager supper user who will maintain website
-                var user = new User();
+                var user = new AccountUser();
                 user.UserName = "Management";
                 user.Email = "managementg@gmail.com";
                 user.RoleId = SystemRoles.RoleManger;
@@ -79,7 +79,7 @@ namespace Labixa
                 role.Name = "Employee";
                 RoleManager.Create(role);
                 //Here create a manager supper user who will maintain website
-                var user = new User();
+                var user = new AccountUser();
                 user.UserName = "Employment";
                 user.Email = "employment@gmail.com";
                 user.RoleId = SystemRoles.RoleEmployee;
