@@ -46,7 +46,7 @@ namespace Outsourcing.Data.Models
         /// Is this blog is static Page
         /// </summary>
         public bool IsStaticPage { get; set; }
-        virtual public ICollection<DocumentStore> Blogs { get; set; }
+        virtual public ICollection<DocumentStore> DocumentStores { get; set; }
 
         [ForeignKey("DocumentCategoryId")]
         virtual public DocumentCategory DocumentCategoryParent { get; set; }

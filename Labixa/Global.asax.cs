@@ -18,7 +18,7 @@ namespace Labixa
             //RouteConfig.RegisterRoutes(RouteTable.Routes);
             //BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-
+            Session.Timeout = 30;
             System.Data.Entity.Database.SetInitializer<OutsourcingEntities>(null);
             //System.Data.Entity.Database.SetInitializer(new OutsourcingSampleData());
             AreaRegistration.RegisterAllAreas();

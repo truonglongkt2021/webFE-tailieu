@@ -11,6 +11,8 @@ namespace Outsourcing.Data.Models
             this.CreatedTime = DateTimeOffset.Now;
             this.LastUpdatedTime = DateTimeOffset.Now;
             this.DeletedTime = DateTimeOffset.Now;
+            isDelete = false;
+            isHot = false;
         }
         public string FileName { get; set; }
         public string ContentType { get; set; }
@@ -22,6 +24,8 @@ namespace Outsourcing.Data.Models
         public string DeletedBy { get; set; }
         public string Temp_1 { get; set; }
         public int ViewCount { get; set; }
+        public int Position { get; set; }
+        public bool isHot { get; set; }
         public int Status_Doc { get; set; }
         public string Temp_2 { get; set; }
         public string Temp_3 { get; set; }
