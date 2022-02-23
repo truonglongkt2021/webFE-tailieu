@@ -39,7 +39,7 @@ namespace Outsourcing.Data.Models
         public int DocumentCategoryId { get; set; }
 
 
-        [ForeignKey("DocumentCategoryId")]
-        virtual public DocumentCategory DocumentCategory { get; set; }
+        //[ForeignKey("DocumentCategoryId")]
+        //virtual public DocumentCategory DocumentCategory { get; set; }
     }
 }

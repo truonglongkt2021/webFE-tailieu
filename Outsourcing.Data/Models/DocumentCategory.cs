@@ -48,7 +48,7 @@ namespace Outsourcing.Data.Models
         public bool IsStaticPage { get; set; }
         virtual public ICollection<DocumentStore> DocumentStores { get; set; }
 
-        [ForeignKey("DocumentCategoryId")]
-        virtual public DocumentCategory DocumentCategoryParent { get; set; }
+        //[ForeignKey("DocumentCategoryId")]
+        //virtual public DocumentCategory DocumentCategoryParent { get; set; }
     }
 }

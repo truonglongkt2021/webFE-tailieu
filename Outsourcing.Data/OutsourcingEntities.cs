@@ -21,7 +21,7 @@ namespace Outsourcing.Data
         public DbSet<DocumentStore> DocumentStore { get; set; }
         public DbSet<TransferLog> TransferLogs { get; set; }
         public DbSet<WebsiteAttribute> WebsiteAttributes { get; set; }
-        public DbSet<AccountUser> AccountUsers { get; set; }
+        //public DbSet<AccountUser> AccountUsers { get; set; }
 
 
         public virtual void Commit()

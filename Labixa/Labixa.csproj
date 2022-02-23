@@ -1289,7 +1289,6 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
     <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
     <Content Include="Content\admin\font\fontawesome-webfont.eot" />
     <Content Include="Content\admin\font\fontawesome-webfont.ttf" />
@@ -1487,7 +1486,6 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\ViewModel\" />
-    <Folder Include="Areas\Admin\Views\Shared\Partial\" />
     <Folder Include="Content\admin\fonts\" />
     <Folder Include="Content\fz3-14199091201320\" />
     <Folder Include="Images\uploaded\" />
