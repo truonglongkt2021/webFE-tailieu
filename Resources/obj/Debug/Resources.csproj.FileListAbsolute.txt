@@ -53,3 +53,17 @@ D:\webFE-tailieu\Resources\obj\Debug\en\Resources.resources.dll
 D:\webFE-tailieu\Resources\obj\Debug\vi\Resources.resources.dll
 D:\webFE-tailieu\Resources\obj\Debug\Resources.dll
 D:\webFE-tailieu\Resources\obj\Debug\Resources.pdb
+E:\outsource\tai-lieu\webFE-tailieu\Resources\bin\Debug\Resources.dll
+E:\outsource\tai-lieu\webFE-tailieu\Resources\bin\Debug\Resources.pdb
+E:\outsource\tai-lieu\webFE-tailieu\Resources\bin\Debug\en\Resources.resources.dll
+E:\outsource\tai-lieu\webFE-tailieu\Resources\bin\Debug\vi\Resources.resources.dll
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.csproj.AssemblyReference.cache
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.Resources.resources
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.Resources.en.resources
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.Resources.vi.resources
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.csproj.GenerateResource.cache
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.csproj.CoreCompileInputs.cache
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\en\Resources.resources.dll
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\vi\Resources.resources.dll
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.dll
+E:\outsource\tai-lieu\webFE-tailieu\Resources\obj\Debug\Resources.pdb

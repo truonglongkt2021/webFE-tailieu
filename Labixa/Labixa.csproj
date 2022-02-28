@@ -262,13 +262,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
     <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
     <Compile Include="Areas\Admin\Mappings\AutoMapperConfiguration.cs" />
     <Compile Include="Areas\Admin\Mappings\DomainToViewModelMappingProfile.cs" />
     <Compile Include="Areas\Admin\Mappings\ViewModelToDomainMappingProfile.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseHomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -286,6 +286,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Pioneer.sql" />
+    <Content Include="Areas\Admin\Contents\assets\css\ace-rtl.min.css" />
+    <Content Include="Areas\Admin\Contents\assets\css\ace.min.css" />
+    <Content Include="Areas\Admin\Contents\assets\css\bootstrap.min.css" />
+    <Content Include="Areas\Admin\Contents\assets\css\fonts.googleapis.com.css" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\css\font-awesome.min.css" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\fonts\fontawesome-webfont3295.svg" />
+    <Content Include="Areas\Admin\Contents\assets\js\jquery-2.1.4.min.js" />
+    <Content Include="Areas\Admin\Contents\assets\js\jquery.mobile.custom.min.js" />
     <Content Include="Content\admin\admincustom.css" />
     <Content Include="Content\admin\avatars\avatar.png" />
     <Content Include="Content\admin\avatars\avatar1.png" />
@@ -1435,6 +1443,14 @@
     <Content Include="Content\Pioneer\rs-plugin\font\revicons90c6.eot" />
     <Content Include="Content\Pioneer\rs-plugin\font\revicons90c6.ttf" />
     <Content Include="Content\Pioneer\rs-plugin\font\revicons90c6.woff" />
+    <Content Include="Views\Shared\_LayoutAuthenAdmin.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\fonts\fontawesome-webfont3295.eot" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\fonts\fontawesome-webfont3295.ttf" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\fonts\fontawesome-webfont3295.woff" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\fonts\fontawesome-webfont3295.woff2" />
+    <Content Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Areas\Admin\Views\Shared\_LayoutAuthenAdmin.cshtml" />
     <None Include="Properties\PublishProfiles\Labixa.pubxml" />
     <None Include="Properties\PublishProfiles\PioneerTravel.pubxml" />
     <None Include="Properties\PublishProfiles\TravelPioneer.pubxml" />
@@ -1453,27 +1469,12 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\_RemoveAccountPartial.cshtml" />
-    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Manage.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Shared\_Footer.cshtml" />
-    <Content Include="Views\Shared\_Header.cshtml" />
-    <Content Include="Views\Shared\_Toolbar.cshtml" />
-    <Content Include="Views\Shared\_Sidebar.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Shared\_NewPost.cshtml" />
     <Content Include="Views\Home\about_us.cshtml" />
     <Content Include="Views\Home\Tours.cshtml" />
     <None Include="Web.Debug.config">
@@ -1484,6 +1485,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Areas\Admin\Contents\assets\font-awesome\4.5.0\js\" />
+    <Folder Include="Areas\Admin\Contents\assets\fonts\" />
+    <Folder Include="Areas\Admin\Contents\assets\images\" />
+    <Folder Include="Areas\Admin\Contents\assets\img\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\ViewModel\" />
     <Folder Include="Content\admin\fonts\" />

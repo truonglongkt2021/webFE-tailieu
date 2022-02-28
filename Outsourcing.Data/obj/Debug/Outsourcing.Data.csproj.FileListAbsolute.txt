@@ -46,7 +46,6 @@ E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\bin\EntityFramework.SqlServ
 E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\bin\Microsoft.AspNet.Identity.Core.xml
 E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\bin\PagedList.xml
-E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\obj\Debug\Outsourcing.Data.csproj.AssemblyReference.cache
 E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\obj\Debug\Outsourcing.Data.csproj.CoreCompileInputs.cache
 E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\obj\Debug\Outsourcing.Data.csproj.CopyComplete
 E:\outsource\tai-lieu\webFE-tailieu\Outsourcing.Data\obj\Debug\Outsourcing.Data.dll
